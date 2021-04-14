@@ -39,7 +39,7 @@ public class TwitterKafkaProducer {
 
   public static void main(String[] args) {
     TwitterKafkaProducer twitterKafkaProducer = new TwitterKafkaProducer();
-    twitterKafkaProducer.addTopic("angular");
+    twitterKafkaProducer.addTopic("vaccine");
     twitterKafkaProducer.run();
   }
 
